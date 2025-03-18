@@ -1,0 +1,31 @@
+Otwory montażowe TODO
+
+Złącze ISP Kanda 10 pin
+Goldpiny do USARTu 
+
+Stabilizator 5V (lub zasilanie z USB) - sprawdzic
+Zlacze DC - 
+Złącze USB C? 
+
+ATmega88 - sprawdzic
+
+DS1307
+Kwarc 32 kHz SMD - sprawdzic
+Holder baterii SMD / THT
+
+
+DCF77 
+Holder do pręta ferrytowego - TODO
+
+LCD 2x16
+Potencjometr montażowy
+
+Enkoder 
+
+Dioda LED czerwona SMD
+Dioda LED niebieska SMD 
+
+Rezystory SMD 0805:
+Kondensatory ceramiczne SMD 0805:
+Kondensatory tantalowe SMD 0805 
+Ferryty 0805:
