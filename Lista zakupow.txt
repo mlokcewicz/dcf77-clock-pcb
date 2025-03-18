@@ -1,21 +1,18 @@
-Otwory montażowe TODO
+Otwory montażowe
 
-Złącze ISP Kanda 10 pin
-Goldpiny do USARTu 
+Złącze ISP Kanda 10 pin + podpiac USART 
 
-Stabilizator 5V (lub zasilanie z USB) - sprawdzic
-Zlacze DC - 
-Złącze USB C? 
+Stabilizator 5V  - sprawdzic
+Zlacze DC
 
-ATmega88 - sprawdzic
+ATmega88
 
 DS1307
-Kwarc 32 kHz SMD - sprawdzic
+Kwarc 32 kHz SMD
 Holder baterii SMD / THT
 
-
 DCF77 
-Holder do pręta ferrytowego - TODO
+Holder do pręta ferrytowego
 
 LCD 2x16
 Potencjometr montażowy
@@ -23,9 +20,9 @@ Potencjometr montażowy
 Enkoder 
 
 Dioda LED czerwona SMD
-Dioda LED niebieska SMD 
 
 Rezystory SMD 0805:
 Kondensatory ceramiczne SMD 0805:
 Kondensatory tantalowe SMD 0805 
 Ferryty 0805:
+Diody 0805:
