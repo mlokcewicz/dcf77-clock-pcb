@@ -25824,12 +25824,12 @@ Source: www.kingbright.com</description>
 <parts>
 <part name="U$1" library="SparkFun" deviceset="AVR_SPI_PROG2" device="PTH2"/>
 <part name="U1" library="SparkFun" deviceset="LCD-16X2" device="SILK"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLUE"/>
 <part name="IC2" library="atmega8" deviceset="ATMEGA48/88/168" device="-AU"/>
 <part name="U2" library="SparkFun" deviceset="DS1307" device="SO8"/>
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="DT" package3d_urn="urn:adsk.eagle:package:16415/2" technology="05" value="7805DT"/>
 <part name="J2" library="con-jack" library_urn="urn:adsk.eagle:library:154" deviceset="DCJ0202" device="" package3d_urn="urn:adsk.eagle:package:7491/1"/>
-<part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="MM39SL" package3d_urn="urn:adsk.eagle:package:12090/1"/>
+<part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="MM39SL" package3d_urn="urn:adsk.eagle:package:12090/1" value="32.768kHz"/>
 <part name="R1" library="SparkFun" deviceset="TRIMPOT" device="PTH" value="10k"/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="1N4007"/>
@@ -26565,12 +26565,6 @@ PON - do not connect</text>
 <wire x1="55.88" y1="-17.78" x2="55.88" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="IC2" gate="1" pin="PB2(SS/OC1B/PCINT2)"/>
-<wire x1="20.32" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="ISP_MISO" class="0">
 <segment>
 <pinref part="IC2" gate="1" pin="PB4(MISO/PCINT4)"/>
@@ -26771,9 +26765,9 @@ PON - do not connect</text>
 <wire x1="144.78" y1="22.86" x2="142.24" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="1" pin="PD5(T1/OC0B/PCINT21)"/>
-<wire x1="20.32" y1="55.88" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
-<label x="22.86" y="55.88" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC2" gate="1" pin="PD7(AIN1/PCINT23)"/>
+<wire x1="20.32" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
+<label x="22.86" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LCD_DB7" class="0">
@@ -26783,9 +26777,9 @@ PON - do not connect</text>
 <wire x1="144.78" y1="20.32" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="1" pin="PD7(AIN1/PCINT23)"/>
-<wire x1="20.32" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
-<label x="22.86" y="50.8" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC2" gate="1" pin="PD5(T1/OC0B/PCINT21)"/>
+<wire x1="20.32" y1="55.88" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
+<label x="22.86" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -26894,6 +26888,13 @@ PON - do not connect</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,147.32,17.78,U1,A,VCC,,,"/>
+<approved hash="104,1,147.32,15.24,U1,K,N$9,,,"/>
+<approved hash="104,1,147.32,50.8,U1,VDD,VCC,,,"/>
+<approved hash="104,1,147.32,53.34,U1,VSS,GND,,,"/>
+<approved hash="104,1,-40.64,40.64,IC2,AGND,GND,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
