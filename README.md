@@ -1,6 +1,6 @@
 # dcf77-clock-pcb
 
-DCF77 controlled radio clock PCB based on Atmega88 microcontroller, CME6005 AM receiver, DS1307 RTC. 
+DCF77 controlled radio clock PCB based on ATmega88 microcontroller, CME6005 AM receiver, DS1307 RTC. 
 
 Capabilities:
 * Time and date displaying
