@@ -25722,7 +25722,7 @@ Source: www.kingbright.com</description>
 <part name="U2" library="SparkFun" deviceset="DS1307" device="SO8"/>
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="DT" package3d_urn="urn:adsk.eagle:package:16415/2" technology="05" value="7805DT"/>
 <part name="J2" library="con-jack" library_urn="urn:adsk.eagle:library:154" deviceset="DCJ0202" device="" package3d_urn="urn:adsk.eagle:package:7491/1"/>
-<part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="MM39SL" package3d_urn="urn:adsk.eagle:package:12090/1" value="32.768kHz"/>
+<part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="MM20SS" package3d_urn="urn:adsk.eagle:package:12092/1" value="32.768kHz"/>
 <part name="R1" library="SparkFun" deviceset="TRIMPOT" device="PTH" value="10k"/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="1N4007"/>
