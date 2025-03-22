@@ -2144,61 +2144,6 @@ Source: DCJ0202.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="_mlokc">
-<description>Generated from &lt;b&gt;SOS_BUTTON_v0.1.sch&lt;/b&gt;&lt;p&gt;
-by exp-lbrs.ulp</description>
-<packages>
-<package name="CONNFLYDS1092-04-B6P">
-<description>Battery holder for CR2032 batteries (raster 20 mm)</description>
-<pad name="P$1" x="-10" y="0" drill="0.9" diameter="1.6764"/>
-<pad name="P$2" x="10" y="0" drill="0.9" diameter="1.6764"/>
-<circle x="0" y="0" radius="11.401753125" width="0.127" layer="21"/>
-<wire x1="13.5" y1="4" x2="13.5" y2="-4" width="0.127" layer="21"/>
-<wire x1="13.5" y1="-4" x2="11" y2="-4" width="0.127" layer="21"/>
-<wire x1="13.5" y1="4" x2="11" y2="4" width="0.127" layer="21"/>
-<circle x="-10" y="0" radius="1" width="0.127" layer="51"/>
-<text x="-11" y="12" size="1.27" layer="25">&gt;NAME</text>
-<text x="-11" y="-13" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="0" y="0" radius="11.672615625" width="0.127" layer="39"/>
-<wire x1="11" y1="4" x2="13.5" y2="4" width="0.127" layer="39"/>
-<wire x1="13.5" y1="4" x2="13.5" y2="-4" width="0.127" layer="39"/>
-<wire x1="13.5" y1="-4" x2="11" y2="-4" width="0.127" layer="39"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CONNFLYDS1092-04-B6P">
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="0.635" y1="2.54" x2="0.635" y2="0" width="0.4064" layer="94"/>
-<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="0" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
-<text x="-1.27" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.27" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="+" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="-" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CONNFLYDS1092-04-B6P" prefix="BT">
-<description>Battery holder for CR2032</description>
-<gates>
-<gate name="G$1" symbol="CONNFLYDS1092-04-B6P" x="5.08" y="5.08"/>
-</gates>
-<devices>
-<device name="" package="CONNFLYDS1092-04-B6P">
-<connects>
-<connect gate="G$1" pin="+" pad="P$2"/>
-<connect gate="G$1" pin="-" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply2" urn="urn:adsk.eagle:library:372">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
 GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -18899,6 +18844,33 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-16" y1="5" x2="-16" y2="-5" width="0.127" layer="21"/>
 <wire x1="-16" y1="-5" x2="-11" y2="-5" width="0.127" layer="21"/>
 </package>
+<package name="CONNFLY-DS1092-14-B6P">
+<circle x="0" y="0" radius="11.5" width="0.127" layer="21"/>
+<circle x="-10" y="0" radius="1" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="11.672615625" width="0.127" layer="39"/>
+<pad name="MINUS" x="-10" y="0" drill="0.9" diameter="1.6764"/>
+<pad name="PLUS" x="10" y="0" drill="0.9" diameter="1.6764"/>
+<text x="-11" y="12" size="1.27" layer="25">&gt;NAME</text>
+<text x="-11" y="-13" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="14.9" y1="-2.75" x2="14.9" y2="2.75" width="0.127" layer="21"/>
+<wire x1="14.9" y1="-2.75" x2="11.2" y2="-2.75" width="0.127" layer="21"/>
+<wire x1="14.9" y1="2.75" x2="11.2" y2="2.75" width="0.127" layer="21"/>
+</package>
+<package name="CONNFLY-DS1092-04-B6P">
+<circle x="0" y="0" radius="11.401753125" width="0.127" layer="21"/>
+<circle x="-10" y="0" radius="1" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="11.672615625" width="0.127" layer="39"/>
+<wire x1="13.5" y1="4" x2="13.5" y2="-4" width="0.127" layer="21"/>
+<wire x1="13.5" y1="-4" x2="11" y2="-4" width="0.127" layer="21"/>
+<wire x1="13.5" y1="4" x2="11" y2="4" width="0.127" layer="21"/>
+<wire x1="11" y1="4" x2="13.5" y2="4" width="0.127" layer="39"/>
+<wire x1="13.5" y1="4" x2="13.5" y2="-4" width="0.127" layer="39"/>
+<wire x1="13.5" y1="-4" x2="11" y2="-4" width="0.127" layer="39"/>
+<pad name="MINUS" x="-10" y="0" drill="0.9" diameter="1.6764"/>
+<pad name="PLUS" x="10" y="0" drill="0.9" diameter="1.6764"/>
+<text x="-11" y="12" size="1.27" layer="25">&gt;NAME</text>
+<text x="-11" y="-13" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DCF77MOD">
@@ -18924,6 +18896,18 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
 <text x="-12.7" y="7.62" size="1.27" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="1V2">
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.4064" layer="94"/>
+<wire x1="0.635" y1="2.54" x2="0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-1.27" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.27" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="PLUS" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="MINUS" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -18957,6 +18941,31 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technologies>
 </device>
 <device name="H6P" package="H6P">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CR2032_HOLDER">
+<gates>
+<gate name="G$1" symbol="1V2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="04" package="CONNFLY-DS1092-04-B6P">
+<connects>
+<connect gate="G$1" pin="MINUS" pad="MINUS"/>
+<connect gate="G$1" pin="PLUS" pad="PLUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="14" package="CONNFLY-DS1092-14-B6P">
+<connects>
+<connect gate="G$1" pin="MINUS" pad="MINUS"/>
+<connect gate="G$1" pin="PLUS" pad="PLUS"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -25717,7 +25726,7 @@ Source: www.kingbright.com</description>
 <part name="R1" library="SparkFun" deviceset="TRIMPOT" device="PTH" value="10k"/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1" value="MOUNT-HOLE3.2"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="1N4007"/>
-<part name="BT1" library="_mlokc" deviceset="CONNFLYDS1092-04-B6P" device=""/>
+<part name="BT1" library="dcf77" deviceset="CR2032_HOLDER" device="14"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10k"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -26258,7 +26267,7 @@ PON - do not connect</text>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="BT1" gate="G$1" pin="-"/>
+<pinref part="BT1" gate="G$1" pin="MINUS"/>
 <wire x1="-134.62" y1="27.94" x2="-134.62" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -26540,9 +26549,9 @@ PON - do not connect</text>
 <wire x1="71.12" y1="35.56" x2="71.12" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="1" pin="ADC6"/>
-<wire x1="20.32" y1="76.2" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
-<label x="22.86" y="76.2" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC2" gate="1" pin="PB2(SS/OC1B/PCINT2)"/>
+<wire x1="20.32" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
+<label x="22.86" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ENC_A" class="0">
@@ -26601,9 +26610,9 @@ PON - do not connect</text>
 <label x="144.78" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="1" pin="PC2(ADC2/PCINT10)"/>
-<wire x1="20.32" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
-<label x="22.86" y="86.36" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC2" gate="1" pin="PC3(ADC3/PCINT11)"/>
+<wire x1="20.32" y1="83.82" x2="22.86" y2="83.82" width="0.1524" layer="91"/>
+<label x="22.86" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LCD_E" class="0">
@@ -26717,7 +26726,7 @@ PON - do not connect</text>
 <segment>
 <pinref part="U2" gate="G$1" pin="VBATT"/>
 <wire x1="-127" y1="45.72" x2="-134.62" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="BT1" gate="G$1" pin="+"/>
+<pinref part="BT1" gate="G$1" pin="PLUS"/>
 <wire x1="-134.62" y1="45.72" x2="-134.62" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -26732,9 +26741,9 @@ PON - do not connect</text>
 <junction x="-101.6" y="48.26"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="1" pin="PC3(ADC3/PCINT11)"/>
-<wire x1="20.32" y1="83.82" x2="22.86" y2="83.82" width="0.1524" layer="91"/>
-<label x="22.86" y="83.82" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC2" gate="1" pin="PC2(ADC2/PCINT10)"/>
+<wire x1="20.32" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
+<label x="22.86" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RTC_SCL" class="0">
