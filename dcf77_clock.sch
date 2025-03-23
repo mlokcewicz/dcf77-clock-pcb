@@ -25851,6 +25851,8 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LS1" library="CD-1206-SMT" deviceset="CD-1206-SMT" device=""/>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26177,6 +26179,14 @@ PON - do not connect</text>
 <attribute name="NAME" x="76.18125" y="1.29345" size="1.784559375" layer="95"/>
 <attribute name="VALUE" x="76.17583125" y="-11.46021875" size="1.78646875" layer="96"/>
 </instance>
+<instance part="SW1" gate="G$3" x="71.12" y="48.26" smashed="yes" rot="R90"/>
+<instance part="SW1" gate="G$4" x="78.74" y="48.26" smashed="yes" rot="R90"/>
+<instance part="GND22" gate="1" x="78.74" y="40.64" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="81.28" y="38.1" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND23" gate="1" x="71.12" y="40.64" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="73.66" y="38.1" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 <bus name="LCD_DB[4..7]">
@@ -26343,6 +26353,16 @@ PON - do not connect</text>
 <pinref part="GND21" gate="1" pin="GND"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="-73.66" y1="40.64" x2="-73.66" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SW1" gate="G$4" pin="G"/>
+<wire x1="78.74" y1="48.26" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SW1" gate="G$3" pin="G"/>
+<wire x1="71.12" y1="48.26" x2="71.12" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="GND23" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="0">
