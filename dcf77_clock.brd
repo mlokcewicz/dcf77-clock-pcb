@@ -136,14 +136,14 @@ AWESOMETRONICS</text>
 <dimension x1="20.32" y1="88.9" x2="50.8" y2="88.9" x3="35.56" y3="92.71" textsize="1.778" layer="1"/>
 <dimension x1="10.541" y1="88.9" x2="60.96" y2="88.9" x3="35.7505" y3="97.79" textsize="1.778" layer="1"/>
 <text x="6.985" y="29.972" size="1.778" layer="25">WayWayWay</text>
-<text x="63.246" y="76.073" size="0.5588" layer="25" rot="SR270">DC 7-9V 100mA</text>
-<wire x1="63.5" y1="70.1802" x2="63.5" y2="69.9262" width="0.1016" layer="25"/>
-<wire x1="63.373" y1="68.9102" x2="63.5" y2="68.9102" width="0.1016" layer="25"/>
-<wire x1="63.5" y1="68.9102" x2="63.627" y2="68.9102" width="0.1016" layer="25"/>
-<wire x1="63.5" y1="68.9102" x2="63.5" y2="68.7832" width="0.1016" layer="25"/>
-<wire x1="63.5" y1="68.9102" x2="63.5" y2="69.0372" width="0.1016" layer="25"/>
-<wire x1="63.1698" y1="69.4182" x2="63.8048" y2="69.4182" width="0.1016" layer="25" curve="-180"/>
-<circle x="63.5" y="69.4182" radius="0.127" width="0.1016" layer="25"/>
+<text x="63.246" y="76.073" size="0.6604" layer="25" rot="SR270">DC 7-9V 100mA</text>
+<wire x1="63.5" y1="69.1642" x2="63.5" y2="68.9102" width="0.1016" layer="25"/>
+<wire x1="63.373" y1="67.8942" x2="63.5" y2="67.8942" width="0.1016" layer="25"/>
+<wire x1="63.5" y1="67.8942" x2="63.627" y2="67.8942" width="0.1016" layer="25"/>
+<wire x1="63.5" y1="67.8942" x2="63.5" y2="67.7672" width="0.1016" layer="25"/>
+<wire x1="63.5" y1="67.8942" x2="63.5" y2="68.0212" width="0.1016" layer="25"/>
+<wire x1="63.1698" y1="68.4022" x2="63.8048" y2="68.4022" width="0.1016" layer="25" curve="-180"/>
+<circle x="63.5" y="68.4022" radius="0.127" width="0.1016" layer="25"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
