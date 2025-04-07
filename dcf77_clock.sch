@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -18200,30 +18200,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </package>
 <package name="CONNFLY-DS1092-14-B6P">
 <circle x="0" y="0" radius="11.5" width="0.127" layer="21"/>
-<circle x="-10" y="0" radius="1" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="11.672615625" width="0.127" layer="39"/>
-<pad name="MINUS" x="-10" y="0" drill="0.9" diameter="1.6764"/>
-<pad name="PLUS" x="10" y="0" drill="0.9" diameter="1.6764"/>
+<circle x="-7.9" y="0" radius="1" width="0.127" layer="51"/>
+<pad name="MINUS" x="-7.9" y="0" drill="0.9" diameter="1.6764"/>
+<pad name="PLUS" x="12.1" y="0" drill="0.9" diameter="1.6764"/>
 <text x="-11" y="12" size="1.27" layer="25">&gt;NAME</text>
 <text x="-11" y="-13" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="14.9" y1="-2.75" x2="14.9" y2="2.75" width="0.127" layer="21"/>
 <wire x1="14.9" y1="-2.75" x2="11.2" y2="-2.75" width="0.127" layer="21"/>
 <wire x1="14.9" y1="2.75" x2="11.2" y2="2.75" width="0.127" layer="21"/>
-</package>
-<package name="CONNFLY-DS1092-04-B6P">
-<circle x="0" y="0" radius="11.401753125" width="0.127" layer="21"/>
-<circle x="-10" y="0" radius="1" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="11.672615625" width="0.127" layer="39"/>
-<wire x1="13.5" y1="4" x2="13.5" y2="-4" width="0.127" layer="21"/>
-<wire x1="13.5" y1="-4" x2="11" y2="-4" width="0.127" layer="21"/>
-<wire x1="13.5" y1="4" x2="11" y2="4" width="0.127" layer="21"/>
-<wire x1="11" y1="4" x2="13.5" y2="4" width="0.127" layer="39"/>
-<wire x1="13.5" y1="4" x2="13.5" y2="-4" width="0.127" layer="39"/>
-<wire x1="13.5" y1="-4" x2="11" y2="-4" width="0.127" layer="39"/>
-<pad name="MINUS" x="-10" y="0" drill="0.9" diameter="1.6764"/>
-<pad name="PLUS" x="10" y="0" drill="0.9" diameter="1.6764"/>
-<text x="-11" y="12" size="1.27" layer="25">&gt;NAME</text>
-<text x="-11" y="-13" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="LCD-16X2_UPPER_HOLES">
 <wire x1="-40" y1="18" x2="40" y2="18" width="0.2032" layer="21"/>
@@ -18792,6 +18776,20 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+<package name="CONNFLY-DS1092-04-B6P">
+<circle x="0" y="0" radius="11.401753125" width="0.127" layer="21"/>
+<circle x="-8" y="0" radius="1" width="0.127" layer="51"/>
+<wire x1="13.5" y1="4" x2="13.5" y2="-4" width="0.127" layer="21"/>
+<wire x1="13.5" y1="-4" x2="11" y2="-4" width="0.127" layer="21"/>
+<wire x1="13.5" y1="4" x2="11" y2="4" width="0.127" layer="21"/>
+<wire x1="11" y1="4" x2="13.5" y2="4" width="0.127" layer="39"/>
+<wire x1="13.5" y1="4" x2="13.5" y2="-4" width="0.127" layer="39"/>
+<wire x1="13.5" y1="-4" x2="11" y2="-4" width="0.127" layer="39"/>
+<pad name="MINUS" x="-8.03" y="0" drill="0.9" diameter="1.6764"/>
+<pad name="PLUS" x="11.97" y="0" drill="0.9" diameter="1.6764"/>
+<text x="-11" y="12" size="1.27" layer="25">&gt;NAME</text>
+<text x="-11" y="-13" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
