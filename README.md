@@ -9,6 +9,10 @@ Capabilities:
 * Automatic and manual remote time / date / weather info synchronization to DCF77 signal
 * Time zone configuration
 * Time and date maintaining by CR2032 battery
+ 
+
+<img src="https://github.com/user-attachments/assets/c89dd5ff-20a3-4f23-be5a-e907f3461b8b" width="600">
+
 
 Hardware:
 * ATmega88
