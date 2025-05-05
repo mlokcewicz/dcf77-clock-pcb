@@ -4,7 +4,6 @@ DCF77 controlled radio clock PCB based on ATmega88 microcontroller, MAS6181B AM 
 
 Capabilities:
 * Time and date displaying
-* Weather information displaying
 * Alarm handling 
 * Automatic and manual remote time / date / weather info synchronization to DCF77 signal
 * Time zone configuration
