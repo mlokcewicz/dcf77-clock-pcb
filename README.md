@@ -23,7 +23,7 @@ Hardware:
 * Rotary Encoder + LED + Buzzer
 
 Software:
-* C
+* C11
 * Own MCU peripherals and external circuits drivers
 
 ## Tools
