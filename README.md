@@ -12,6 +12,7 @@
 * Time synchronization status display
 * Time zone configuration
 * DCF77 signal parameters preview during synchronization
+* Time and date data available over the serial port
 * Time and date retention via CR2032 battery
   
 **Hardware:**
