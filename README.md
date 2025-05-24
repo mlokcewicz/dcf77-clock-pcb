@@ -12,7 +12,7 @@ Capabilities:
 * Time and date retention by CR2032 battery
  
 
-<img src="dcf77_clock_final_1.JPG" width="600">
+<img src="dcf77_clock_final_3.JPG" width="800">
 
 
 Hardware:
@@ -23,7 +23,7 @@ Hardware:
 * Rotary Encoder + LED + Buzzer
 
 Software:
-* C
+* C11
 * Own MCU peripherals and external circuits drivers
 
 ## Tools
