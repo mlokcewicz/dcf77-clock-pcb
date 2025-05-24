@@ -21,7 +21,7 @@
 * 2x16 HD44760 LCD
 * Rotary Encoder + LED + Buzzer
 
-**Software:**
+**Firmware:**
 * C11
 * Custom MCU peripheral and external circuit drivers
 
