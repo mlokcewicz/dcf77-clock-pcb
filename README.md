@@ -31,3 +31,6 @@
 
 ## External links
 * Firmware repository: https://github.com/mlokcewicz/dcf77-clock
+
+## License
+This project is licensed under the CERN Open Hardware Licence Version 2 - Permissive - see the [LICENSE](./LICENSE) file for details.
