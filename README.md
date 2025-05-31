@@ -13,10 +13,10 @@
 * Time zone configuration
 * DCF77 signal parameters preview during synchronization
 * Time and date data available over the serial port
-* Time and date retention via CR2032 battery
+* Time and date retention powered by a CR2032 battery
   
 **Hardware:**
-* ATmega88
+* ATmega88 MCU
 * MAS6181B DCF77 receiver
 * DS1307 RTC + CR2032
 * 2x16 HD44760 LCD
