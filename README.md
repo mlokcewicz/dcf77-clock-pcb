@@ -20,7 +20,7 @@
 * MAS6181B DCF77 receiver
 * DS1307 RTC + CR2032
 * 2x16 HD44760 LCD
-* Rotary Encoder + LED + Buzzer
+* Rotary Encoder + Button + LED + Buzzer
 
 **Firmware:**
 * C11
